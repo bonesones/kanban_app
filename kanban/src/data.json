@@ -1,0 +1,50 @@
+{
+    "projects": [
+        {
+            "id": "5780952c-b020-49c7-ac94-e9003f92d77b",
+            "name": "Электротовары",
+            "columns":  [
+                {
+                    "id": "6f3f3f3f-5b6d-449b-9d01-9a6876117f55",
+                    "name": "Нужно сделать",
+                    "tasks": [
+                        {
+                            "id": "4f06034d-9c2b-4d20-85b3-4c5a9a3749ce",
+                            "name": "Разработать новый чекаут для Юр. Лиц.",
+                            "perfomer": {
+                                "id": "f98694cb-8b76-4484-b845-1f64e4e5cac8",
+                                "name": "Никита Хаецкий",
+                                "image": "./image.png"
+                            },
+                            "planned": 34,
+                            "spent": 0,
+                            "deadline": "28.07.2025",
+                            "description" : null,
+                            "subtasks": [
+                                {
+                                    "id": "3a2dce3b-17a5-42ec-80e7-1069a0abfe99",
+                                    "description": "Перенести пользователей в новую БД",
+                                    "isCompleted": false
+                                }
+                            ],
+                            "comments": [
+                                {
+                                    "id": "ad05477f-058a-495b-a5d3-610e52edc826",
+                                    "date": 1753696395725,
+                                    "author": {
+                                        "id": "f98694cb-8b76-4484-b845-1f64e4e5cac8",
+                                        "name": "Никита Хаецкий",
+                                        "image": "./image.png"
+                                    },
+                                    "description": "Lorem ipsum dolor sit amet"
+                                }
+                            ],
+                            "isBeeingPerfomed": false,
+                            "isCompleted": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
